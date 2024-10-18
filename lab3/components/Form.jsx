@@ -30,10 +30,10 @@ export default function Form({addBook}) {
 
     return <div className='book-form'>
         <form onSubmit={handleSubmit}>
-            <input name="author" type="text" placeholder="Add title" required onChange={handleInputChange}/>
-            <input name="title" type="text" placeholder="Add author" required onChange={handleInputChange}/>
-            <input name="category" type="text" placeholder="Add category" required onChange={handleInputChange}/>
-            <input name="description" type="text" placeholder="Add description" required onChange={handleInputChange}/>
+            <input name="title" type="text" placeholder="Add title" value={newBook.title} required onChange={handleInputChange}/>
+            <input name="author" type="text" placeholder="Add author"  value={newBook.author} required onChange={handleInputChange}/>
+            <input name="category" type="text" placeholder="Add category"  value={newBook.category} required onChange={handleInputChange}/>
+            <input name="description" type="text" placeholder="Add description"  value={newBook.description} required onChange={handleInputChange}/>
             <button type="submit">Add new book</button>
         </form>
     </div>
