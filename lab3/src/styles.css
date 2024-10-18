@@ -1,0 +1,79 @@
+body {
+    background: #cbcbcb;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.book {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.book ul {
+    background: #e8e8e8;
+    border: 2px black solid;
+    border-radius: 4px;
+    padding: 0.5%;
+    width: 15rem;
+    margin-left: 5%;
+}
+
+.book-catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.book-catalog select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+}
+
+.book-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.book-form form {
+    background: #E5E4E2;
+    border: 1px solid black;
+    border-radius: 2%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.book-form input {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.book-form button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    background: white;
+}
+
+.book-form button:hover {
+    background: #C0C0C0;
+}
